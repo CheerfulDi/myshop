@@ -1,17 +1,14 @@
 package pro.sky.java.course2.myshop.model;
 
-import org.springframework.context.annotation.Configuration;
 
 import java.util.*;
 
-@Configuration
-class MyShopCart {
+public class MyShopCart {
 
     private List<Integer> productsId; //список id продуктов
 
 
-    public MyShopCart(List<Integer> productsId) {
-        this.productsId = productsId;
+    public MyShopCart() {
     }
 
     public List<Integer> getProductsId() {
