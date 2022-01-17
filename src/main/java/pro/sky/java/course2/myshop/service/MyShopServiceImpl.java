@@ -10,7 +10,6 @@ import java.util.*;
 public class MyShopServiceImpl implements MyShopService {
 
 
-    @Autowired
     private MyShopCart myShopCart;
 
     Map<List<Integer>,Integer> products = new HashMap<>();
